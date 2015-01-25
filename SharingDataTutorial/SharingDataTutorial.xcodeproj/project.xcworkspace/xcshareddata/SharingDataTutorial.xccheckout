@@ -10,11 +10,19 @@
 	<dict>
 		<key>1B787256E44239067FB0F47257369DD66DCC6646</key>
 		<string>https://github.com/randomite/IOS-Development.git</string>
+		<key>5EC1EB8CB02A6A2F941E908573C8F175B976BF81</key>
+		<string>https://github.com/randomite/AppleWatchTutorialSeries.git</string>
+		<key>A3FBD8B8BA9E252A613EC76E350A7F4232FD1E0D</key>
+		<string>https://github.com/randomite/AppleWatchTutorialSeries.git</string>
 	</dict>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1B787256E44239067FB0F47257369DD66DCC6646</key>
 		<string>xcode/</string>
+		<key>5EC1EB8CB02A6A2F941E908573C8F175B976BF81</key>
+		<string>xcode/Tutorials/</string>
+		<key>A3FBD8B8BA9E252A613EC76E350A7F4232FD1E0D</key>
+		<string>xcode/Tutorials/SharingDataTutorial/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/randomite/IOS-Development.git</string>
@@ -24,6 +32,22 @@
 	<string>1B787256E44239067FB0F47257369DD66DCC6646</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A3FBD8B8BA9E252A613EC76E350A7F4232FD1E0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SharingDataTutorial</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5EC1EB8CB02A6A2F941E908573C8F175B976BF81</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tutorials</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

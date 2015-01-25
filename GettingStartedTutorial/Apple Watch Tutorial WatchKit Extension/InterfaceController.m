@@ -18,12 +18,11 @@ int x = 0;
 @implementation InterfaceController
 
 - (instancetype)initWithContext:(id)context {
-    self = [super initWithContext:context];
+    self = [super init];
     if (self){
         // Initialize variables here.
         // Configure interface objects here.
         NSLog(@"%@ initWithContext", self);
-        
     }
     return self;
 }
