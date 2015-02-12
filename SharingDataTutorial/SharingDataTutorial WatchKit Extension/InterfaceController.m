@@ -18,7 +18,7 @@
 @synthesize myLabel;
 
 - (instancetype)initWithContext:(id)context {
-    self = [super initWithContext:context];
+    self = [super init];
     if (self){
         // Initialize variables here.
         // Configure interface objects here.
