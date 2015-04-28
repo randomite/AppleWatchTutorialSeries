@@ -682,6 +682,7 @@
 				12E4CC0D1A2549A100AA3DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12E4CC0E1A2549A100AA3DA3 /* Build configuration list for PBXNativeTarget "SharingDataTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +691,7 @@
 				12E4CC101A2549A100AA3DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12E4CC321A254B7800AA3DA3 /* Build configuration list for PBXNativeTarget "SharingDataTutorial Watch App" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +700,7 @@
 				12E4CC341A254B7800AA3DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12E4CC351A254B7800AA3DA3 /* Build configuration list for PBXNativeTarget "SharingDataTutorial WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +709,7 @@
 				12E4CC371A254B7800AA3DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
