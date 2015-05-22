@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AA4E781B0FEA1400F0AB85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4E771B0FEA1400F0AB85 /* AppDelegate.swift */; };
+		12AA4E7A1B0FEA1400F0AB85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4E791B0FEA1400F0AB85 /* ViewController.swift */; };
+		12AA4E7D1B0FEA1400F0AB85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AA4E7B1B0FEA1400F0AB85 /* Main.storyboard */; };
+		12AA4E7F1B0FEA1400F0AB85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AA4E7E1B0FEA1400F0AB85 /* Images.xcassets */; };
+		12AA4E821B0FEA1400F0AB85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12AA4E801B0FEA1400F0AB85 /* LaunchScreen.xib */; };
+		12AA4E8E1B0FEA1400F0AB85 /* SharingDataTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4E8D1B0FEA1400F0AB85 /* SharingDataTutorialTests.swift */; };
+		12AA4EA11B0FEC6700F0AB85 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4EA01B0FEC6700F0AB85 /* InterfaceController.swift */; };
+		12AA4EA31B0FEC6700F0AB85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AA4EA21B0FEC6700F0AB85 /* Images.xcassets */; };
+		12AA4EA71B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 12AA4EA61B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App.app */; };
+		12AA4EAF1B0FEC6700F0AB85 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AA4EAD1B0FEC6700F0AB85 /* Interface.storyboard */; };
+		12AA4EB11B0FEC6700F0AB85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AA4EB01B0FEC6700F0AB85 /* Images.xcassets */; };
+		12AA4EB41B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 12AA4E9C1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12AA4E881B0FEA1400F0AB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12AA4E6A1B0FEA1400F0AB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12AA4E711B0FEA1400F0AB85;
+			remoteInfo = SharingDataTutorial;
+		};
+		12AA4EA81B0FEC6700F0AB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12AA4E6A1B0FEA1400F0AB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12AA4EA51B0FEC6700F0AB85;
+			remoteInfo = "SharingDataTutorial WatchKit App";
+		};
+		12AA4EB21B0FEC6700F0AB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12AA4E6A1B0FEA1400F0AB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12AA4E9B1B0FEC6700F0AB85;
+			remoteInfo = "SharingDataTutorial WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12AA4EBB1B0FEC6700F0AB85 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				12AA4EB41B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12AA4E721B0FEA1400F0AB85 /* SharingDataTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharingDataTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AA4E761B0FEA1400F0AB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AA4E771B0FEA1400F0AB85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12AA4E791B0FEA1400F0AB85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12AA4E7C1B0FEA1400F0AB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12AA4E7E1B0FEA1400F0AB85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12AA4E811B0FEA1400F0AB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12AA4E871B0FEA1400F0AB85 /* SharingDataTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharingDataTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AA4E8C1B0FEA1400F0AB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AA4E8D1B0FEA1400F0AB85 /* SharingDataTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingDataTutorialTests.swift; sourceTree = "<group>"; };
+		12AA4E971B0FEB0100F0AB85 /* SharingDataTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SharingDataTutorial.entitlements; sourceTree = "<group>"; };
+		12AA4E9C1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SharingDataTutorial WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AA4E9F1B0FEC6700F0AB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AA4EA01B0FEC6700F0AB85 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		12AA4EA21B0FEC6700F0AB85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12AA4EA61B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SharingDataTutorial WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AA4EAC1B0FEC6700F0AB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AA4EAE1B0FEC6700F0AB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		12AA4EB01B0FEC6700F0AB85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12AA4EBC1B0FEE2500F0AB85 /* SharingDataTutorial WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SharingDataTutorial WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12AA4E6F1B0FEA1400F0AB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA4E841B0FEA1400F0AB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA4E991B0FEC6700F0AB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12AA4E691B0FEA1400F0AB85 = {
+			isa = PBXGroup;
+			children = (
+				12AA4E741B0FEA1400F0AB85 /* SharingDataTutorial */,
+				12AA4E8A1B0FEA1400F0AB85 /* SharingDataTutorialTests */,
+				12AA4E9D1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension */,
+				12AA4EAA1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App */,
+				12AA4E731B0FEA1400F0AB85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12AA4E731B0FEA1400F0AB85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4E721B0FEA1400F0AB85 /* SharingDataTutorial.app */,
+				12AA4E871B0FEA1400F0AB85 /* SharingDataTutorialTests.xctest */,
+				12AA4E9C1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension.appex */,
+				12AA4EA61B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12AA4E741B0FEA1400F0AB85 /* SharingDataTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4E971B0FEB0100F0AB85 /* SharingDataTutorial.entitlements */,
+				12AA4E771B0FEA1400F0AB85 /* AppDelegate.swift */,
+				12AA4E791B0FEA1400F0AB85 /* ViewController.swift */,
+				12AA4E7B1B0FEA1400F0AB85 /* Main.storyboard */,
+				12AA4E7E1B0FEA1400F0AB85 /* Images.xcassets */,
+				12AA4E801B0FEA1400F0AB85 /* LaunchScreen.xib */,
+				12AA4E751B0FEA1400F0AB85 /* Supporting Files */,
+			);
+			path = SharingDataTutorial;
+			sourceTree = "<group>";
+		};
+		12AA4E751B0FEA1400F0AB85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4E761B0FEA1400F0AB85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12AA4E8A1B0FEA1400F0AB85 /* SharingDataTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4E8D1B0FEA1400F0AB85 /* SharingDataTutorialTests.swift */,
+				12AA4E8B1B0FEA1400F0AB85 /* Supporting Files */,
+			);
+			path = SharingDataTutorialTests;
+			sourceTree = "<group>";
+		};
+		12AA4E8B1B0FEA1400F0AB85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4E8C1B0FEA1400F0AB85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12AA4E9D1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4EBC1B0FEE2500F0AB85 /* SharingDataTutorial WatchKit Extension.entitlements */,
+				12AA4EA01B0FEC6700F0AB85 /* InterfaceController.swift */,
+				12AA4EA21B0FEC6700F0AB85 /* Images.xcassets */,
+				12AA4E9E1B0FEC6700F0AB85 /* Supporting Files */,
+			);
+			path = "SharingDataTutorial WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		12AA4E9E1B0FEC6700F0AB85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4E9F1B0FEC6700F0AB85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12AA4EAA1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4EAD1B0FEC6700F0AB85 /* Interface.storyboard */,
+				12AA4EB01B0FEC6700F0AB85 /* Images.xcassets */,
+				12AA4EAB1B0FEC6700F0AB85 /* Supporting Files */,
+			);
+			path = "SharingDataTutorial WatchKit App";
+			sourceTree = "<group>";
+		};
+		12AA4EAB1B0FEC6700F0AB85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4EAC1B0FEC6700F0AB85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12AA4E711B0FEA1400F0AB85 /* SharingDataTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AA4E911B0FEA1400F0AB85 /* Build configuration list for PBXNativeTarget "SharingDataTutorial" */;
+			buildPhases = (
+				12AA4E6E1B0FEA1400F0AB85 /* Sources */,
+				12AA4E6F1B0FEA1400F0AB85 /* Frameworks */,
+				12AA4E701B0FEA1400F0AB85 /* Resources */,
+				12AA4EBB1B0FEC6700F0AB85 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12AA4EB31B0FEC6700F0AB85 /* PBXTargetDependency */,
+			);
+			name = SharingDataTutorial;
+			productName = SharingDataTutorial;
+			productReference = 12AA4E721B0FEA1400F0AB85 /* SharingDataTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12AA4E861B0FEA1400F0AB85 /* SharingDataTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AA4E941B0FEA1400F0AB85 /* Build configuration list for PBXNativeTarget "SharingDataTutorialTests" */;
+			buildPhases = (
+				12AA4E831B0FEA1400F0AB85 /* Sources */,
+				12AA4E841B0FEA1400F0AB85 /* Frameworks */,
+				12AA4E851B0FEA1400F0AB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12AA4E891B0FEA1400F0AB85 /* PBXTargetDependency */,
+			);
+			name = SharingDataTutorialTests;
+			productName = SharingDataTutorialTests;
+			productReference = 12AA4E871B0FEA1400F0AB85 /* SharingDataTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12AA4E9B1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AA4EB81B0FEC6700F0AB85 /* Build configuration list for PBXNativeTarget "SharingDataTutorial WatchKit Extension" */;
+			buildPhases = (
+				12AA4E981B0FEC6700F0AB85 /* Sources */,
+				12AA4E991B0FEC6700F0AB85 /* Frameworks */,
+				12AA4E9A1B0FEC6700F0AB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12AA4EA91B0FEC6700F0AB85 /* PBXTargetDependency */,
+			);
+			name = "SharingDataTutorial WatchKit Extension";
+			productName = "SharingDataTutorial WatchKit Extension";
+			productReference = 12AA4E9C1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		12AA4EA51B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AA4EB51B0FEC6700F0AB85 /* Build configuration list for PBXNativeTarget "SharingDataTutorial WatchKit App" */;
+			buildPhases = (
+				12AA4EA41B0FEC6700F0AB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharingDataTutorial WatchKit App";
+			productName = "SharingDataTutorial WatchKit App";
+			productReference = 12AA4EA61B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12AA4E6A1B0FEA1400F0AB85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ravin Sardal";
+				TargetAttributes = {
+					12AA4E711B0FEA1400F0AB85 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = KSNH7VRKBE;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					12AA4E861B0FEA1400F0AB85 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 12AA4E711B0FEA1400F0AB85;
+					};
+					12AA4E9B1B0FEC6700F0AB85 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = KSNH7VRKBE;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					12AA4EA51B0FEC6700F0AB85 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 12AA4E6D1B0FEA1400F0AB85 /* Build configuration list for PBXProject "SharingDataTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12AA4E691B0FEA1400F0AB85;
+			productRefGroup = 12AA4E731B0FEA1400F0AB85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12AA4E711B0FEA1400F0AB85 /* SharingDataTutorial */,
+				12AA4E861B0FEA1400F0AB85 /* SharingDataTutorialTests */,
+				12AA4E9B1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension */,
+				12AA4EA51B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12AA4E701B0FEA1400F0AB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA4E7D1B0FEA1400F0AB85 /* Main.storyboard in Resources */,
+				12AA4E821B0FEA1400F0AB85 /* LaunchScreen.xib in Resources */,
+				12AA4E7F1B0FEA1400F0AB85 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA4E851B0FEA1400F0AB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA4E9A1B0FEC6700F0AB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA4EA31B0FEC6700F0AB85 /* Images.xcassets in Resources */,
+				12AA4EA71B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA4EA41B0FEC6700F0AB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA4EAF1B0FEC6700F0AB85 /* Interface.storyboard in Resources */,
+				12AA4EB11B0FEC6700F0AB85 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12AA4E6E1B0FEA1400F0AB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA4E7A1B0FEA1400F0AB85 /* ViewController.swift in Sources */,
+				12AA4E781B0FEA1400F0AB85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA4E831B0FEA1400F0AB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA4E8E1B0FEA1400F0AB85 /* SharingDataTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA4E981B0FEC6700F0AB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA4EA11B0FEC6700F0AB85 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12AA4E891B0FEA1400F0AB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12AA4E711B0FEA1400F0AB85 /* SharingDataTutorial */;
+			targetProxy = 12AA4E881B0FEA1400F0AB85 /* PBXContainerItemProxy */;
+		};
+		12AA4EA91B0FEC6700F0AB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12AA4EA51B0FEC6700F0AB85 /* SharingDataTutorial WatchKit App */;
+			targetProxy = 12AA4EA81B0FEC6700F0AB85 /* PBXContainerItemProxy */;
+		};
+		12AA4EB31B0FEC6700F0AB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12AA4E9B1B0FEC6700F0AB85 /* SharingDataTutorial WatchKit Extension */;
+			targetProxy = 12AA4EB21B0FEC6700F0AB85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12AA4E7B1B0FEA1400F0AB85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AA4E7C1B0FEA1400F0AB85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12AA4E801B0FEA1400F0AB85 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AA4E811B0FEA1400F0AB85 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		12AA4EAD1B0FEC6700F0AB85 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AA4EAE1B0FEC6700F0AB85 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12AA4E8F1B0FEA1400F0AB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12AA4E901B0FEA1400F0AB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12AA4E921B0FEA1400F0AB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SharingDataTutorial/SharingDataTutorial.entitlements;
+				INFOPLIST_FILE = SharingDataTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12AA4E931B0FEA1400F0AB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SharingDataTutorial/SharingDataTutorial.entitlements;
+				INFOPLIST_FILE = SharingDataTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12AA4E951B0FEA1400F0AB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingDataTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingDataTutorial.app/SharingDataTutorial";
+			};
+			name = Debug;
+		};
+		12AA4E961B0FEA1400F0AB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharingDataTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharingDataTutorial.app/SharingDataTutorial";
+			};
+			name = Release;
+		};
+		12AA4EB61B0FEC6700F0AB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SharingDataTutorial_WatchKit_Extension;
+				INFOPLIST_FILE = "SharingDataTutorial WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		12AA4EB71B0FEC6700F0AB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SharingDataTutorial_WatchKit_Extension;
+				INFOPLIST_FILE = "SharingDataTutorial WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		12AA4EB91B0FEC6700F0AB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SharingDataTutorial WatchKit Extension/SharingDataTutorial WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SharingDataTutorial WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		12AA4EBA1B0FEC6700F0AB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SharingDataTutorial WatchKit Extension/SharingDataTutorial WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SharingDataTutorial WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12AA4E6D1B0FEA1400F0AB85 /* Build configuration list for PBXProject "SharingDataTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AA4E8F1B0FEA1400F0AB85 /* Debug */,
+				12AA4E901B0FEA1400F0AB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12AA4E911B0FEA1400F0AB85 /* Build configuration list for PBXNativeTarget "SharingDataTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AA4E921B0FEA1400F0AB85 /* Debug */,
+				12AA4E931B0FEA1400F0AB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12AA4E941B0FEA1400F0AB85 /* Build configuration list for PBXNativeTarget "SharingDataTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AA4E951B0FEA1400F0AB85 /* Debug */,
+				12AA4E961B0FEA1400F0AB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12AA4EB51B0FEC6700F0AB85 /* Build configuration list for PBXNativeTarget "SharingDataTutorial WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AA4EB61B0FEC6700F0AB85 /* Debug */,
+				12AA4EB71B0FEC6700F0AB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12AA4EB81B0FEC6700F0AB85 /* Build configuration list for PBXNativeTarget "SharingDataTutorial WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AA4EB91B0FEC6700F0AB85 /* Debug */,
+				12AA4EBA1B0FEC6700F0AB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12AA4E6A1B0FEA1400F0AB85 /* Project object */;
+}
