@@ -216,6 +216,7 @@
 		1262FEE11BB7C4D200690756 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ravin Sardal";
 				TargetAttributes = {
@@ -524,6 +525,7 @@
 				1262FEFD1BB7C4D200690756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1262FF1B1BB7C72A00690756 /* Build configuration list for PBXNativeTarget "WatchApp Extension" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				1262FF1D1BB7C72A00690756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1262FF1F1BB7C72A00690756 /* Build configuration list for PBXNativeTarget "WatchApp" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +543,7 @@
 				1262FF211BB7C72A00690756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

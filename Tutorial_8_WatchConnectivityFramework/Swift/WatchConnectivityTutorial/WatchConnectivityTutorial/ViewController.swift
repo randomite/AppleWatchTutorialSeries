@@ -35,7 +35,11 @@ class ViewController: UIViewController, WCSessionDelegate {
     func session(session: WCSession, didReceiveMessage message: [String : AnyObject]) {
         //recieve messages from watch
         self.messageLabel.text = message["b"]! as? String
+        dispatch_async(dispatch_get_main_queue(), {
+            self.messageLabel.text = message["b"]! as? String
+        })
     }
+
 
 }
 
