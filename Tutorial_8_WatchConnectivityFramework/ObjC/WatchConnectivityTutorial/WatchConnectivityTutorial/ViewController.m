@@ -32,15 +32,22 @@
     session.delegate = self;
     [session activateSession];
     
-    [session sendMessage:@{@"a":@"hello"} replyHandler:nil errorHandler:nil];
+    [session sendMessage:@{@"a":@"hello"} replyHandler:^(NSDictionary<NSString *,id> * _Nonnull replyMessage) {
+        
+    } errorHandler:^(NSError * _Nonnull error) {
+        
+    }];
 }
 
 
 #pragma mark - WatchConnectivity Delegate Method
 
 - (void) session:(nonnull WCSession *)session didReceiveMessage:(nonnull NSDictionary<NSString *,id> *)message replyHandler:(nonnull void (^)(NSDictionary<NSString *,id> * __nonnull))replyHandler{
-    self.messageLabel.text = (NSString *) message;
-    NSLog(message);
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.messageLabel.text = message[@"b"];
+        NSLog(@"%@",message);
+    });
+    
 }
 
 @end

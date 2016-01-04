@@ -37,12 +37,16 @@
     session.delegate = self;
     [session activateSession];
     
-    [session sendMessage:@{@"b":@"goodBye"} replyHandler:nil errorHandler:nil];
+    [session sendMessage:@{@"b":@"goodBye"} replyHandler:^(NSDictionary<NSString *,id> * _Nonnull replyMessage) {
+        
+    } errorHandler:^(NSError * _Nonnull error) {
+        
+    }];
 
 }
 
 - (void) session:(nonnull WCSession *)session didReceiveMessage:(nonnull NSDictionary<NSString *,id> *)message replyHandler:(nonnull void (^)(NSDictionary<NSString *,id> * __nonnull))replyHandler{
-    [[self messageLabel] setText: (NSString *) message];
+    [[self messageLabel] setText:message[@"a"]];
     //NSLog(message);
 }
 
